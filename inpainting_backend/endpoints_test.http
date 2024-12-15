@@ -1,0 +1,24 @@
+### Test file for testing FastAPI endpoints using REST Client in VSCode
+
+### Check if server is running.
+GET http://localhost:8000/
+
+### Test the upload endpoint
+POST http://localhost:8000/upload/
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="original"; filename="atomic_radius_table.jpg"
+Content-Type: image/jpeg
+
+< ./test_files/atomic_radius_table.jpg
+--WebAppBoundary
+Content-Disposition: form-data; name="mask"; filename="electronegativity_table.jpg"
+Content-Type: image/jpeg
+
+< ./test_files/electronegativity_table.jpg
+--WebAppBoundary--
+
+### Test fetching an image pair by ID
+GET http://localhost:8000/images/1
+Content-Type: application/json

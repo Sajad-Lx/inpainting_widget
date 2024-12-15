@@ -1,0 +1,30 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pdb
+*.so
+
+# Environment files
+.env
+*.env
+
+# SQLite database
+*.db
+
+# Log files
+*.log
+logs/
+
+# Python virtual environment
+venv/
+.env/
+
+# Conda environment files
+*.conda
+*.yaml
+
+# System files
+.DS_Store
+Thumbs.db
