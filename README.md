@@ -108,6 +108,6 @@ To overcome this, I researched solutions on platforms like **StackOverflow**, **
 
 ## Live Demo
 
-[Click here to view the live demo](https://inpainting-widget.vercel.app)
+[Click here to view the live demo](https://inpainting-widget-demo.vercel.app)
 
 ---
