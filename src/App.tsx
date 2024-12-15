@@ -12,8 +12,6 @@ import { Input } from "@/components/ui/input.tsx";
 import { useFabric } from "@/hooks/use-fabric.tsx";
 import {
   Brush,
-  FlipHorizontal,
-  FlipVertical,
   MousePointer2,
   Trash,
 } from "lucide-react";
@@ -28,10 +26,10 @@ function App() {
     canvasRef,
     maskCanvasRef,
     setBackgroundImage,
-    flipImage,
+    // flipImage,
     deleteSelectedObject,
     isObjectSelected,
-    isImageSelected,
+    // isImageSelected,
     setDrawingMode,
     setBrushSize,
     setBrushColor,
